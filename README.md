@@ -2,16 +2,20 @@
 
 Verlustfreie PNG-Ablage für das botanische Fachbuch des Forschungsdoms.
 
-## Dateistruktur
+## Pflanzenillustrationen
 
-- `pflanzen/BOT-001-gesamtansicht.png` – Bleistiftskizze der ersten Pflanze
-- `pflanzen/BOT-001-bluetenstudie.png` – Blüten-/Herbarstudie
+| Katalog | Datei | Beschreibung |
+|---|---|---|
+| BOT-001 | [BOT-001-01.png](pflanzen/BOT-001-01.png) | Gesamtansicht, Bleistiftskizze |
+| BOT-001 | [BOT-001-02.png](pflanzen/BOT-001-02.png) | Gepresste Blütenstudie |
 
-Die beiden PNG-Dateien werden nach dem Upload über GitHub Pages unter diesen direkten URLs erreichbar sein:
+## Direkte PNG-URLs (GitHub Pages)
 
-- `https://movion.github.io/image-stuff/pflanzen/BOT-001-gesamtansicht.png`
-- `https://movion.github.io/image-stuff/pflanzen/BOT-001-bluetenstudie.png`
+- https://movion.github.io/image-stuff/pflanzen/BOT-001-01.png
+- https://movion.github.io/image-stuff/pflanzen/BOT-001-02.png
 
-**GitHub Pages aktivieren:** Settings → Pages → Deploy from a branch → `main` / `/(root)`.
+Übersicht: https://movion.github.io/image-stuff/
 
-Die Dateien werden beim Hosting nicht neu komprimiert. Die Ingame-Darstellung kann unabhängig davon eine eigene Auflösungsgrenze haben.
+Falls die GitHub-Pages-URLs 404 liefern: im Repository unter **Settings → Pages** die Veröffentlichung von `main` / `/(root)` aktivieren und die erfolgreiche Veröffentlichung abwarten. Die tatsächlichen Bilddateien liegen im Ordner `pflanzen`.
+
+Die Original-PNG-Dateien bleiben verlustfrei erhalten; die Ingame-Anzeige kann sie unabhängig davon verkleinern.
